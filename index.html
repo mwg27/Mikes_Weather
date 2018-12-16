@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Mikes Grills 
+	CIT 261	
+-->
+<html>
+	<head>
+		<title>Mike the Weatherman</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/mysite.js" ></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>	
+		<script type="text/javascript">
+			$( window ).load(function() {
+				loadCity();
+			});	
+		</script>
+	</head>
+	<body>
+		<div id="grad">
+			<div id="titlediv">Mike the Weatherman</div>
+			<div id="citydiv">Rexburg, Id</div>
+			<div id="cityselect">
+				<select id="citySelect" onchange="changeCity()">
+					<option value="5605242" selected>Rexburg, ID</option>
+					<option value="5781004">Salt Lake City, UT</option>
+					<option value="5809844">Seattle, WA</option>
+					<option value="5308655">Phoenix, AZ</option>
+					<option value="5389519">Sacrmento, CA</option>
+					<option value="4347820">Baltimore, MD</option>
+					<option value="4180439">Atlanta, GA</option>
+					<option value="4317656">Boston, MA</option>
+				</select>
+			</div>
+			<div>&nbsp;</div>
+			<div id="wnowDiv">
+				<img id="nowimg" src="img/01d.png"><a id="nowtmp">12&#176; sunny</a>
+			</div>
+			<div id="hnowDiv">Humidity 20%</div>
+			
+			<div id="lineDiv"></div>
+			<div id="fDiv">
+				<span id="r1day">Sat</span>
+				<img id="img1" src="img/01d.png"><a id="r1w">light snow 37&#176; - 19&#176;</a>
+			</div>
+			<div id="fDiv">
+				<span id="r2day">Sun</span>
+				<img id="img2" src="img/01d.png"><a id="r2w">light snow  37&#176; - 19&#176;</a>
+			</div>
+			<div id="fDiv">
+				<span id="r3day">Mon</span>
+				<img id="img3" src="img/01d.png"><a id="r3w">light snow  37&#176; - 19&#176;</a>
+			</div>
+			<div id="fDiv">
+				<span id="r4day">Tue</span>
+				<img id="img4" src="img/01d.png"><a id="r4w">light snow  37&#176; - 19&#176;</a>
+			</div>
+			<div id="fDiv">
+				<span id="r5day">Wed</span>
+				<img id="img5" src="img/01d.png"><a id="r5w">light snow  37&#176; - 19&#176;</a>
+			</div>
+			<div id="fDiv">
+				<span id="r6day">Mon</span>
+				<img id="img6" src="img/01d.png"><a id="r6w">light snow  37&#176; - 19&#176;</a>
+			</div>
+			<div id="fDiv">
+				<span id="r7day">Tue</span>
+				<img id="img7" src="img/01d.png"><a id="r7w">light snow  37&#176; - 19&#176;</a>
+			</div>
+			<div id="fDiv">
+				<span id="r8day">Wed</span>
+				<img id="img8" src="img/01d.png"><a id="r8w">light snow  37&#176; - 19&#176;</a>
+			</div>			
+		</div>			
+			
+	</body>
+</html>
